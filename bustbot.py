@@ -59,6 +59,9 @@ async def on_message(message):
     
     if message.content.startswith('!flip'):
         await message.channel.send(flip())
+
+    if 'cooch' in message.content.lower():
+        await message.add_reaction("<:chadineau:943982782890262539>")
     
 
 client.run(os.getenv('TOKEN'))
