@@ -1,7 +1,14 @@
+# test
+
 from random import random
 import discord
 import random
 import os
+import platform
+from dotenv import load_dotenv
+
+if("Linux" in platform.platform()):
+    load_dotenv()
 
 client = discord.Client()
 
