@@ -1,6 +1,9 @@
 # bustbot
 bust island resident services
 
+
+Coommands:
+
 !flip
   heads or tails
   
